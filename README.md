@@ -1,15 +1,18 @@
-# Titan
+# Event recommendation system called 'Titan'
+This web system is to find interesting events around user and provide recommendations for users based on their favorite
 
-This is an interactive webpage for users to search and get recommendations.
 
-## What I used
-Used RESTful API to handle HTTP request and response  
-Front end :AJAX technology, CSS, HTML, JavaScript  
-Back end: TicketMaster, relational database MySQL, NoSQL MongoDB  
-Remote Server: EC2(Currently closed because of breaching the free tier limit)  
-Local Server: Apache tomcat 9.0.1  
+## Programming environment
+Platform: Eclipse Oxygen
+Local Server: Tomcat 9.0.1
+Remote Server: Amazon EC2
+Back-end language: Java 8
+Front-end language: CSS, HTML5, JavaScript  
+API: TicketMaster API, extensible with different geo-based API like Yelp or New York Times  
+Database: MySQL, MongoDB (this is used to make a MapReduce simulation on distributed system)
+Test Tools: JMeter 4.0, Postman
 
-### OOD Pattern 
+## OOD Pattern 
 
 Builder pattern for Events (Because we might add more features in the future)  
 Factory pattern for switching Database
