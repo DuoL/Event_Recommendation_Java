@@ -3,8 +3,8 @@ This web system is to find interesting events around user and provide recommenda
 
 
 ## Programming environment
-Platform: Eclipse Oxygen 
-Local Server: Tomcat 9.0.1 
+Platform: Eclipse Oxygen. 
+Local Server: Tomcat 9.0.1. 
 Remote Server: Amazon EC2
 Back-end language: Java 8
 Front-end language: CSS, HTML5, JavaScript  
