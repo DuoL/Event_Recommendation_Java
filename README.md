@@ -96,7 +96,8 @@ Reason: When there is not enough data so called cold start, we can use this meth
 |    |Human: like    |Human:Unlike|
 |----|---------------|------------|
 |Algorithm: Recommend    |A    |B    |
-|Algorithm: Not Recommend|C    |D    |  
+|Algorithm: Not Recommend|C    |D    |    
+
 Precision = A / (A + B) means the prob of what a person like among all recommendations
 Recall = A / (A + C) means the prob of correct recommendations
 
