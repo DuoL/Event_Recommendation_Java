@@ -13,7 +13,7 @@ Database: MySQL, MongoDB (this is used to make a MapReduce simulation on distrib
 Test Tools: JMeter 4.0, Postman  
 
 ##Front page demo
-![image](http://github.com/DuoL/Event_Recommendation_Java/images/LoginPage.jpg)
+![image](http://github.com/DuoL/Event_Recommendation_Java/images/LoginPage.JPG)
 
 
 
