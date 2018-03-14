@@ -12,20 +12,7 @@ API: TicketMaster API, extensible with different geo-based API like Yelp or New 
 Database: MySQL, MongoDB (this is used to make a MapReduce simulation on distributed system)  
 Test Tools: JMeter 4.0, Postman  
 
-## OOD Pattern 
-
-Builder pattern for Events (Because we might add more features in the future)  
-Factory pattern for switching Database
-
-### Recommendation Algorithm
-
-First of all, this webpage might have few users at the very beginning so called 'cold start'.  
-We only have to use a content-based algorithm: which means we just need to find the common part between users.
-
-## Running the tests
-
-I used JMeter to figure out that by using EC2 server this webpage is able to handle 150 queries per second.
-### Break down into end to end tests
+##Front page demo
 
 
 ## Authors
