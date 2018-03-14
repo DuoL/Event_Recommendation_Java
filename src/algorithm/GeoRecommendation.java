@@ -45,9 +45,6 @@ public class GeoRecommendation {
 		Collections.sort(filteredItems, new Comparator<Item>() {
 			@Override
 			public int compare(Item item1, Item item2) {
-				// Student question: can we make this ranking even better with
-				// more dimensions?
-				// What other feathers can be used here?
 				double distance1 = getDistance(item1.getLatitude(), item1.getLongitude(), lat, lon);
 				double distance2 = getDistance(item2.getLatitude(), item2.getLongitude(), lat, lon);
 				// return the increasing order of distance.
