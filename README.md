@@ -20,7 +20,7 @@ I used two kinds of DB
 1. Online: I've used content-based recommendation algorithm to deal with not too much users at the very beginning.  
 2. Offline:  
 	2.1 Purify Algorithm: clean the data and format them into a JSON file  
-	2.2 Find Peak: find the right time for us to do data analysis when offline  
+	2.2 Find Peak: find the right time for us to do data analysis(MapReduce) when offline  
 
 
 ## Items
