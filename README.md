@@ -11,12 +11,16 @@ There are only a few pages:
 4. RecommendPage  
 
 ## Database [link](https://github.com/DuoL/Event_Recommendation_Java/tree/master/src/db)
-I used two kinds of DB 
-	1. MySQL (for project purpose)
+I used two kinds of DB   
+	1. MySQL (for project purpose)  
 	2. MongoDB (extensible for MapReduce)
 
 
 ## Algorithm [link](https://github.com/DuoL/Event_Recommendation_Java/tree/master/src/algorithm)
+1. Online: I've used content-based recommendation algorithm to deal with not too much users at the very beginning.  
+2. Offline:  
+	2.1 Purify Algorithm: clean the data and format them into a JSON file  
+	2.2 Find Peak: find the right time for us to do data analysis when offline  
 
 
 ## Items
@@ -30,8 +34,9 @@ So Here I've used Factory pattern to make the API switchable for easy change in 
 ## RPC
 Java Servlets to handle different HTTP request
 
+
 ## Dataflow 
-![image](https://github.com/DuoL/Event_Recommendation_Java/blob/master/images/DataFlow.JPG)
+![image](https://github.com/DuoL/Event_Recommendation_Java/blob/master/images/DataFlow.JPG)  
 ## Programming environment
  Platform: Eclipse Oxygen   
  Local Server: Tomcat 9.0.1  
