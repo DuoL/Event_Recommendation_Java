@@ -31,9 +31,9 @@ So in a case there could be some attributes missing, we need a builder pattern t
 Here I used TicketMaster API, but this system is also extensible for other recommendations like Yelp API or NY times API
 So Here I've used Factory pattern to make the API switchable for easy change in the future
 
-## RPC
+## RPC 
 Java Servlets to handle different HTTP request
-
+[Test the servlets and deploy it on Amazon EC2](https://github.com/DuoL/Event_Recommendation_Java/tree/master/src/rpc)
 
 ## Dataflow 
 ![image](https://github.com/DuoL/Event_Recommendation_Java/blob/master/images/DataFlow.JPG)  
