@@ -12,8 +12,8 @@ There are only a few pages:
 
 ## Database [link](https://github.com/DuoL/Event_Recommendation_Java/tree/master/src/db)
 I used two kinds of DB   
-	1. MySQL (for project purpose)  
-	2. MongoDB (extensible for MapReduce)
+	1. MySQL (for local database test)  
+	2. MongoDB (extensible for distributed system test))
 
 
 ## Algorithm [link](https://github.com/DuoL/Event_Recommendation_Java/tree/master/src/algorithm)
